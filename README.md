@@ -172,6 +172,7 @@ sudo apt install docker.io
 sudo su - 
 usermod -aG docker jenkins
 usermod -aG docker ubuntu
+Added: -> chmod 777 /var/run/docker.sock
 systemctl restart docker
 ```
 
